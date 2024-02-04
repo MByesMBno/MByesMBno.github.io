@@ -1,0 +1,43 @@
+body{
+    background: linear-gradient(45deg,rgb(255, 0, 0),rgb(13, 255, 0));
+}
+.shell{
+    width: 50%;
+    height: 1000px;
+    font-family: fantasy;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    display: block;
+    margin: auto;
+    border: 5px solid white;
+    border-radius: 9px;
+    background-color:black;
+    box-shadow: 20px 3px 20px 3px black;
+}
+.shell h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contacts li,p{
+    display: flex;
+    margin: 0;
+}
+.contacts p{
+    margin-left: 15px;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+li{
+    list-style-type: square;
+    margin-bottom: 20px;
+}
+a{
+    color:wheat;
+    text-decoration: none;
+    opacity: 0.7;
+    transition: all 0.2s ease-in-out;
+}
+a:hover{
+    opacity: 1.0;
+}
